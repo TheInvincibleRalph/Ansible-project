@@ -23,4 +23,4 @@ jobs:
           pip install ansible
 
       - name: Run Ansible Playbook
-        run: ansible-playbook Ansible-project/playbook.yml
+        run: ansible-playbook ./playbook.yml
