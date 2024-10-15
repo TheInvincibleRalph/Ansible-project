@@ -1,9 +1,6 @@
 ---
-- hosts: all
-  become: true  
-  tasks:
-    - name: Create a local directory for EFS
-      file:
-        path: /mnt/efs
-        state: directory
-        mode: '0755'
+- name: Create a local directory for EFS
+  file:
+    path: /mnt/efs
+    state: directory
+    mode: '0755'
