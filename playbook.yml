@@ -5,3 +5,11 @@
     - efs
     - mysql
     - apache
+- name: Start the web service
+  service:
+    name: mysql
+    state: started
+- name: Start the web service
+  service:
+    name: apache
+    state: started
