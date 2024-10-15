@@ -7,4 +7,4 @@ This repository automates the provisioning and configuration of AWS infrastructu
 1. Clone the repository.
 2. Configure GitHub Secrets for AWS credentials.
 3. Push changes to `main` to trigger the deployment.
-4. Ensure that EFS, MySQL, and Apache are set up properly on local machine.
+4. Validate that EFS, MySQL, and Apache are set up properly on local machine.
