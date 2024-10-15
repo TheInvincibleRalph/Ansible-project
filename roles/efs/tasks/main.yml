@@ -1,0 +1,5 @@
+---
+- name: Create a local directory for EFS
+  file:
+    path: /mnt/efs
+    state: directory
